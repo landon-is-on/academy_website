@@ -42,3 +42,40 @@ nav {
   margin-left: rem;
   width: 120rem;
 }
+
+.set-up {
+  background-color: #556272;
+  font-family: "Montserrat", sans-serif;
+  width: 20rem;
+  height: auto;
+  text-align: center;
+  margin-left: 50rem;
+}
+
+#set-up-header {
+  font-size: 1.3rem;
+  color: white;
+}
+
+#set-up-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.who-we-are {
+  text-align: center;
+}
+
+#who-we-are-header {
+  color: #556272;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  font-weight: bolder;
+  margin-top: 4rem;
+}
+
+#who-we-are-text {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+}
