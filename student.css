@@ -118,3 +118,8 @@ nav {
 #modes-text {
   text-align: center;
 }
+
+.modes-flex {
+  display: flex;
+  margin-left: 25rem;
+}
