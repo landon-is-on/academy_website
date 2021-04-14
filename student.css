@@ -28,7 +28,6 @@ nav {
 }
 
 .logo {
-  height: ;
   margin: 1rem;
 }
 
@@ -103,4 +102,19 @@ nav {
   color: white;
   line-height: 2rem;
   font-style: italic;
+}
+
+#modes-title {
+  color: #556272;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  font-weight: bolder;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#modes-text {
+  text-align: center;
 }
