@@ -40,7 +40,7 @@ nav {
 
 #hero {
   margin-left: rem;
-  width: 120rem;
+  width: 118.9rem;
 }
 
 .set-up {
@@ -78,4 +78,9 @@ nav {
 #who-we-are-text {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
+}
+
+#first-green-lorem {
+  background-color: #47cdc6;
+  width: 118.9rem;
 }
