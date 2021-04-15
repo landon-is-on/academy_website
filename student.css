@@ -161,10 +161,16 @@ nav {
 
 #card-title {
   font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Karla", sans-serif;
   text-align: center;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
 #card-subtitle {
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-evenly;
 }
