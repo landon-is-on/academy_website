@@ -152,8 +152,19 @@ nav {
 
 .card-pics {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .card-section {
   background-color: #f7f7f7;
+}
+
+#card-title {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#card-subtitle {
 }
