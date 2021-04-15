@@ -118,39 +118,42 @@ nav {
 #modes-text {
   text-align: center;
 }
-
 .modes-flex {
   display: flex;
   margin-left: 25rem;
+  grid-gap: 10px;
 }
-
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(auto-fix, minmax(400px, 1fr));
+  grid-gap: 5px;
 }
+
 .one {
   grid-column: 1 / 3;
   grid-row: 1;
 }
 .two {
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
+  grid-column: 3;
+  grid-row: 1/3;
 }
 .three {
-  grid-column: 1;
-  grid-row: 2 / 5;
+  grid-column: 2;
+  grid-row: 2;
 }
 .four {
-  grid-column: 3;
-  grid-row: 3;
+  grid-column: 2;
+  grid-row: 1;
 }
 .five {
-  grid-column: 2;
-  grid-row: 4;
-}
-.six {
   grid-column: 3;
-  grid-row: 4;
+  grid-row: 2;
+}
+
+.card-pics {
+  display: flex;
+}
+
+.card-section {
+  background-color: #f7f7f7;
 }
