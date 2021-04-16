@@ -215,4 +215,19 @@ nav {
 
 #kids-yelling {
   width: 100%;
+  margin-top: 9rem;
+}
+
+#card-title {
+  margin-top: 12rem;
+  font-family: "Karla", sans-serif;
+}
+
+#kids-yelling-title {
+  color: white;
+  position: relative;
+  left: 50rem;
+  bottom: 17rem;
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
 }
