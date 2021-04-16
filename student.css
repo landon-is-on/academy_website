@@ -200,3 +200,15 @@ nav {
 #core-program-lorem {
   text-align: center;
 }
+
+#core-program {
+  font-size: 3rem;
+  font-family: "Karla", sans-serif;
+  color: #556272;
+  text-transform: capitalize;
+}
+
+#core-program-lorem {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
