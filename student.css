@@ -225,9 +225,15 @@ nav {
 
 #kids-yelling-title {
   color: white;
-  position: relative;
+  position: absolute;
   left: 50rem;
-  bottom: 17rem;
+  bottom: -210rem;
   font-family: "Karla", sans-serif;
   font-size: 2rem;
+}
+
+.kids-projects {
+  display: flex;
+  margin-left: 35rem;
+  margin-top: 5rem;
 }
