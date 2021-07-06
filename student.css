@@ -4,37 +4,23 @@
 box-sizing: border-box;
 }
 /*------nav bar---*/
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  font-family: "Karla", sans-serif;
+#navbarNavAltMarkup{
+justify-content:space-around;
 }
 
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
+.nav-link{
+font-size: 1.3rem;
+margin-left: 1rem;
+margin-right: 1rem;
 }
 
-.nav-links a {
-  color: black;
-  text-decoration: none;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.logo {
-  margin: 1rem;
-}
 
 #nav-button {
   background-color: #ea686c;
   color: white;
-  border-radius: 3px;
+  border-radius: 1rem;
+text-decoration: none;
+border: none;
 }
 /*----hero-----------*/
 #hero {
@@ -423,4 +409,83 @@ text-align: left;
   grid-row: 2/3; 
 text-align: left;
 }
+#kids-yelling-title{
+  bottom: -272rem;
+  font-size: 2rem;
+}
+#partners{
+  width: 23rem;
+}
+}
+
+@media screen and (max-width: 535px) {
+  #first-green-lorem-little-text {
+    left: 10rem;
+  top: 12rem;
+font-size: 1rem;  
+} 
+  #first-green-lorem-text{
+    left: 1rem;
+    font-size: 1rem;
+  top: 7rem;
+  }
+  #second-green-lorem-little-text {
+    left: 10rem;
+  top: 12rem;
+  font-size: 1rem;}
+  #second-green-lorem-text {
+    left: 1rem;
+    font-size: 1rem;
+  top: 7rem;
+  }
+#kids-yelling-title{
+  bottom: -280rem;
+}
+.gridPics{
+  width: 13rem;
+}
+.wrapper{
+  grid-template-columns: repeat(2, 13.3rem);
+}
+}
+
+@media screen and (max-width: 425px) {
+  #kids-yelling-title{
+    bottom: -285rem;
+    font-size: 1.5rem;
+  left: 5rem;
+  }
+.wrapper{
+  grid-template-columns: repeat(2, 11.5rem);
+}
+#second-green-lorem-text {
+  left: 1rem;
+  font-size: 1rem;
+top: 4rem;
+}
+
+#second-green-lorem-little-text {
+  left: 8rem;
+top: 16rem;
+font-size: 1rem;
+}
+#first-green-lorem-little-text {
+  left: 8rem;
+top: 16rem;
+font-size: 1rem;  
+} 
+#first-green-lorem-text{
+  left: 1rem;
+  font-size: 1rem;
+top: 4rem;
+}
+}
+
+@media screen and (max-width: 375px) {
+  .gridPics{
+    width: 11rem;
+  }
+  .wrapper{
+    grid-template-columns: repeat(2, 10.3rem);
+  }
 }
